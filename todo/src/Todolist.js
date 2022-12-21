@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Addlist, Delete, Removeall } from "./reducer/TodoSlice";
 
-const Todolist = () => {
+const Tolistdo = () => {
   const dispatch = useDispatch();
   const [err, setErr] = useState("");
   const Result = useSelector((state) => state.Todo.todo);
